@@ -1,0 +1,1548 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+
+/* =========================================================
+   SIDEBAR NAVY BLUE
+   ========================================================= */
+
+.fi-sidebar,
+.fi-sidebar-nav,
+.fi-sidebar-header {
+    background-color: #062B63 !important;
+}
+
+.fi-sidebar {
+    border-right: none !important;
+}
+
+
+/* =========================================================
+   HEADER / LOGO SIDEBAR
+   ========================================================= */
+
+.fi-sidebar-header {
+    border-bottom: none !important;
+}
+
+.fi-sidebar-header a,
+.fi-sidebar-header .fi-logo {
+    color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   SEMUA MENU SIDEBAR
+   ========================================================= */
+
+.fi-sidebar-item,
+.fi-sidebar-item-label,
+.fi-sidebar-item-icon {
+    color: #FFFFFF !important;
+}
+
+.fi-sidebar-item-btn {
+    background-color: transparent !important;
+    color: #FFFFFF !important;
+    border-radius: 10px !important;
+}
+
+
+/* =========================================================
+   MENU AKTIF
+   ========================================================= */
+
+.fi-sidebar-item.fi-active {
+    background-color: transparent !important;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn,
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn,
+.fi-sidebar-item.fi-active > a,
+.fi-sidebar-item.fi-active > button,
+.fi-sidebar-item a[aria-current="page"],
+.fi-sidebar-item a[aria-current="page"] .fi-sidebar-item-btn {
+    background-color: #1769C2 !important;
+    color: #FFFFFF !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-label,
+.fi-sidebar-item.fi-active .fi-sidebar-item-icon,
+.fi-sidebar-item.fi-active svg,
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn *,
+.fi-sidebar-item a[aria-current="page"] .fi-sidebar-item-label,
+.fi-sidebar-item a[aria-current="page"] .fi-sidebar-item-icon,
+.fi-sidebar-item a[aria-current="page"] svg {
+    color: #FFFFFF !important;
+    stroke: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   HOVER MENU
+   ========================================================= */
+
+.fi-sidebar-item:not(.fi-active) .fi-sidebar-item-btn:hover {
+    background-color: rgba(255, 255, 255, 0.10) !important;
+    color: #FFFFFF !important;
+}
+
+.fi-sidebar-item:not(.fi-active) .fi-sidebar-item-btn:hover .fi-sidebar-item-label,
+.fi-sidebar-item:not(.fi-active) .fi-sidebar-item-btn:hover .fi-sidebar-item-icon {
+    color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   JUDUL KELOMPOK MENU
+   ========================================================= */
+
+.fi-sidebar-group-label {
+    color: #60A5FA !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   TOMBOL GROUP / PANAH
+   ========================================================= */
+
+.fi-sidebar-group-button,
+.fi-sidebar-group-button svg {
+    color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   AREA UTAMA
+   ========================================================= */
+
+html,
+body,
+.fi-main,
+.fi-main-ctn,
+.fi-layout,
+.fi-main > div,
+.fi-page,
+.fi-page-content,
+.fi-page-header,
+.fi-page-content-ctn {
+    background-color: #F3F4F6 !important;
+}
+
+
+/* =========================================================
+   TOPBAR PUTIH
+   ========================================================= */
+
+.fi-topbar {
+    background-color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   SCROLLBAR SIDEBAR
+   ========================================================= */
+
+.fi-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.fi-sidebar::-webkit-scrollbar-track {
+    background: #062B63;
+}
+
+.fi-sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+
+/* =========================================================
+   HEADER TABEL
+   ========================================================= */
+
+.fi-ta-table thead,
+.fi-ta-table thead tr,
+.fi-ta-table thead th,
+.fi-ta-table thead th > div {
+    background-color: #1769C2 !important;
+}
+
+.fi-ta-table thead th,
+.fi-ta-table thead th *,
+.fi-ta-table thead th button,
+.fi-ta-table thead th button *,
+.fi-ta-table thead th span {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+}
+
+.fi-ta-table thead th svg,
+.fi-ta-table thead th button svg {
+    color: #FFFFFF !important;
+    stroke: #FFFFFF !important;
+}
+
+.fi-ta-table thead th:hover,
+.fi-ta-table thead th button:hover {
+    background-color: #1769C2 !important;
+}
+
+
+/* =========================================================
+   STATUS AKTIF
+   ========================================================= */
+
+.fi-ta-text-item.fi-color-success,
+.fi-badge.fi-color-success,
+.fi-badge.fi-color-success span,
+.fi-ta-text-item.fi-color-success span,
+.fi-ta-text-item[data-color="success"],
+.fi-ta-text-item[data-color="success"] *,
+[data-color="success"] {
+    color: #16A34A !important;
+}
+
+.fi-badge.fi-color-success {
+    background-color: #DCFCE7 !important;
+    border-color: #BBF7D0 !important;
+}
+
+.fi-badge.fi-color-success svg,
+.fi-ta-text-item.fi-color-success svg {
+    color: #16A34A !important;
+    stroke: #16A34A !important;
+}
+
+
+/* =========================================================
+   STATUS NON AKTIF
+   ========================================================= */
+
+.fi-ta-text-item.fi-color-danger,
+.fi-badge.fi-color-danger,
+.fi-badge.fi-color-danger span,
+.fi-ta-text-item.fi-color-danger span,
+.fi-ta-text-item[data-color="danger"],
+.fi-ta-text-item[data-color="danger"] *,
+[data-color="danger"] {
+    color: #DC2626 !important;
+}
+
+.fi-badge.fi-color-danger {
+    background-color: #FEE2E2 !important;
+    border-color: #FECACA !important;
+}
+
+.fi-badge.fi-color-danger svg,
+.fi-ta-text-item.fi-color-danger svg {
+    color: #DC2626 !important;
+    stroke: #DC2626 !important;
+}
+
+
+/* =========================================================
+   TOMBOL EDIT
+   ========================================================= */
+
+.fi-ta-actions .fi-color-warning,
+.fi-ta-actions .fi-color-warning span,
+.fi-ta-actions .fi-color-warning svg {
+    color: #F59E0B !important;
+}
+
+.fi-ta-actions .fi-color-warning svg {
+    stroke: #F59E0B !important;
+}
+
+.fi-ta-actions .fi-color-warning:hover,
+.fi-ta-actions .fi-color-warning:hover span,
+.fi-ta-actions .fi-color-warning:hover svg {
+    color: #D97706 !important;
+}
+
+.fi-ta-actions .fi-color-warning:hover svg {
+    stroke: #D97706 !important;
+}
+
+
+/* =========================================================
+   TOMBOL DELETE
+   ========================================================= */
+
+.fi-ta-actions .fi-color-danger,
+.fi-ta-actions .fi-color-danger span,
+.fi-ta-actions .fi-color-danger svg {
+    color: #DC2626 !important;
+}
+
+.fi-ta-actions .fi-color-danger svg {
+    stroke: #DC2626 !important;
+}
+
+.fi-ta-actions .fi-color-danger:hover,
+.fi-ta-actions .fi-color-danger:hover span,
+.fi-ta-actions .fi-color-danger:hover svg {
+    color: #B91C1C !important;
+}
+
+.fi-ta-actions .fi-color-danger:hover svg {
+    stroke: #B91C1C !important;
+}
+
+
+/* =========================================================
+   KATEGORI
+   ========================================================= */
+
+.fi-ta-text-item.fi-color-primary,
+.fi-ta-text-item.fi-color-primary span {
+    color: #1769C2 !important;
+}
+
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+.fi-ta-search-field input:focus {
+    border-color: #1769C2 !important;
+    box-shadow: 0 0 0 1px #1769C2 !important;
+}
+
+
+/* =========================================================
+   TOMBOL TAMBAH / NEW
+   ========================================================= */
+
+.fi-ta-header-toolbar .fi-btn-color-primary,
+.fi-header-actions .fi-btn-color-primary {
+    background-color: #1769C2 !important;
+    color: #FFFFFF !important;
+}
+
+.fi-ta-header-toolbar .fi-btn-color-primary:hover,
+.fi-header-actions .fi-btn-color-primary:hover {
+    background-color: #125AA5 !important;
+}
+
+
+/* =========================================================
+   HILANGKAN GLOBAL SEARCH
+   ========================================================= */
+
+.fi-global-search {
+    display: none !important;
+}
+
+
+/* =========================================================
+   TOOLBAR TABEL
+   ========================================================= */
+
+.fi-ta-header-toolbar {
+    position: relative !important;
+    width: 100% !important;
+    min-height: 48px !important;
+
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+/* =========================================================
+   SEARCH DI KANAN ATAS
+   ========================================================= */
+
+.fi-ta-header-toolbar .fi-ta-search-field {
+    position: absolute !important;
+
+    top: 50% !important;
+    right: 24px !important;
+    left: auto !important;
+
+    width: 360px !important;
+    max-width: 360px !important;
+
+    margin: 0 !important;
+    flex: none !important;
+
+    transform: translateY(-50%) !important;
+}
+
+.fi-ta-header-toolbar .fi-ta-search-field input {
+    width: 100% !important;
+}
+
+
+/* =========================================================
+   HILANGKAN COLUMNS DAN FILTER
+   ========================================================= */
+
+.fi-ta-col-manager-dropdown,
+.fi-ta-col-manager-modal,
+.fi-ta-col-toggle,
+.fi-ta-columns-trigger,
+.fi-ta-filter-trigger,
+.fi-ta-filters-trigger,
+.fi-ta-header-toolbar button[aria-label*="filter" i],
+.fi-ta-header-toolbar button[aria-label*="filters" i],
+.fi-ta-header-toolbar button[aria-label*="column" i],
+.fi-ta-header-toolbar button[aria-label*="columns" i] {
+    display: none !important;
+}
+
+
+/* =========================================================
+   HILANGKAN CHECKBOX TABEL
+   ========================================================= */
+
+.fi-ta-table .fi-ta-selection-cell,
+.fi-ta-selection-cell,
+.fi-ta-table input[type="checkbox"] {
+    display: none !important;
+}
+
+
+/* =========================================================
+   CONTAINER DAN ISI TABEL
+   ========================================================= */
+
+.fi-ta-ctn {
+    position: relative !important;
+    background-color: #FFFFFF !important;
+}
+
+.fi-ta-content,
+.fi-ta-table,
+.fi-ta-table tbody,
+.fi-ta-table tbody tr,
+.fi-ta-table tbody td {
+    background-color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   JARAK DERMAGA 24PX DARI KIRI
+   ========================================================= */
+
+.fi-ta-table thead tr > th.fi-ta-selection-cell + th,
+.fi-ta-table tbody tr > td.fi-ta-selection-cell + td,
+.fi-ta-table thead tr > th:first-child:not(.fi-ta-selection-cell),
+.fi-ta-table tbody tr > td:first-child:not(.fi-ta-selection-cell) {
+    padding-left: 24px !important;
+    text-align: left !important;
+}
+
+
+/* =========================================================
+   HILANGKAN PADDING TAMBAHAN ISI DERMAGA
+   ========================================================= */
+
+.fi-ta-table tbody tr > td.fi-ta-selection-cell + td .fi-ta-text-item,
+.fi-ta-table tbody tr > td.fi-ta-selection-cell + td .fi-ta-text-item > span,
+.fi-ta-table tbody tr > td:first-child:not(.fi-ta-selection-cell) .fi-ta-text-item,
+.fi-ta-table tbody tr > td:first-child:not(.fi-ta-selection-cell) .fi-ta-text-item > span {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+
+/* =========================================================
+   JARAK KANAN ATUR TARIF
+   ========================================================= */
+
+.fi-ta-table thead tr > th:last-child,
+.fi-ta-table tbody tr > td:last-child {
+    padding-right: 24px !important;
+}
+
+
+/* =========================================================
+   PER PAGE - POSISI ATAS KIRI
+   ========================================================= */
+
+.fi-ta-ctn .fi-pagination-records-per-page-select-ctn {
+    position: absolute !important;
+
+    top: 12px !important;
+    left: 24px !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    width: auto !important;
+    height: 36px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    z-index: 50 !important;
+}
+
+
+/* =========================================================
+   KONTROL ANGKA PER PAGE
+   ========================================================= */
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select.fi-compact {
+    display: flex !important;
+    align-items: center !important;
+
+    width: auto !important;
+    height: 36px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   KOTAK ANGKA PER PAGE
+   ========================================================= */
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select.fi-compact
+.fi-input-wrp {
+    width: 64px !important;
+    min-width: 64px !important;
+    max-width: 64px !important;
+
+    height: 36px !important;
+
+    background-color: #FFFFFF !important;
+
+    border: 1px solid #D1D5DB !important;
+    border-radius: 6px !important;
+
+    box-shadow: none !important;
+    overflow: hidden !important;
+}
+
+
+/* =========================================================
+   SELECT ANGKA PER PAGE
+   ========================================================= */
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select.fi-compact
+select {
+    width: 100% !important;
+    min-width: 64px !important;
+
+    height: 34px !important;
+
+    padding-left: 10px !important;
+    padding-right: 28px !important;
+
+    background-color: #FFFFFF !important;
+    color: #374151 !important;
+
+    border: none !important;
+    border-radius: 5px !important;
+
+    font-size: 13px !important;
+    font-weight: 400 !important;
+
+    outline: none !important;
+    box-shadow: none !important;
+
+    cursor: pointer !important;
+}
+
+
+/* =========================================================
+   FOKUS KOTAK PER PAGE
+   ========================================================= */
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select.fi-compact
+.fi-input-wrp:focus-within {
+    border-color: #D1D5DB !important;
+    box-shadow: none !important;
+}
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select.fi-compact
+select:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   TULISAN PER PAGE
+   ========================================================= */
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select.fi-compact::after {
+    content: "Per page" !important;
+
+    display: inline-block !important;
+
+    margin-left: 8px !important;
+
+    color: #4B5563 !important;
+
+    font-size: 13px !important;
+    font-weight: 400 !important;
+
+    line-height: 36px !important;
+
+    white-space: nowrap !important;
+}
+
+
+/* =========================================================
+   SEMBUNYIKAN PER PAGE BAWAAN YANG KEDUA
+   ========================================================= */
+
+.fi-ta-ctn
+.fi-pagination-records-per-page-select-ctn
+.fi-pagination-records-per-page-select:not(.fi-compact) {
+    display: none !important;
+}
+
+
+/* =========================================================
+   PAGINATION BAWAH
+   ========================================================= */
+
+.fi-pagination {
+    position: static !important;
+
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    justify-content: space-between !important;
+}
+
+
+/* =========================================================
+   SHOWING 1 TO ... OF ... RESULTS
+   ========================================================= */
+
+.fi-pagination-overview {
+    position: static !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+
+    margin-right: auto !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    color: #4B5563 !important;
+
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.fi-pagination-overview span {
+    color: #4B5563 !important;
+
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.fi-pagination-overview strong,
+.fi-pagination-overview .font-medium,
+.fi-pagination-overview .font-semibold,
+.fi-pagination-overview .font-bold {
+    color: #4B5563 !important;
+
+    font-size: 13px !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   HILANGKAN TOMBOL NEXT / PREVIOUS BESAR DI TENGAH
+   ========================================================= */
+
+.fi-pagination > .fi-pagination-previous-btn,
+.fi-pagination > .fi-pagination-next-btn {
+    display: none !important;
+}
+
+
+/* =========================================================
+   AREA PAGINATION KANAN
+   ========================================================= */
+
+.fi-pagination-items {
+    position: static !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+
+    margin-left: auto !important;
+    padding: 0 !important;
+
+    gap: 8px !important;
+
+    list-style: none !important;
+
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   ITEM PAGINATION
+   Tidak mempunyai kotak sendiri
+   ========================================================= */
+
+.fi-pagination-items > .fi-pagination-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 36px !important;
+    min-width: 36px !important;
+    max-width: 36px !important;
+
+    height: 36px !important;
+    min-height: 36px !important;
+    max-height: 36px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background-color: transparent !important;
+
+    border: 0 !important;
+    border-width: 0 !important;
+    border-style: none !important;
+    border-color: transparent !important;
+
+    box-shadow: none !important;
+    outline: none !important;
+
+    list-style: none !important;
+}
+
+.fi-pagination-items > .fi-pagination-item::before,
+.fi-pagination-items > .fi-pagination-item::after {
+    display: none !important;
+    content: none !important;
+}
+
+
+/* =========================================================
+   TOMBOL PAGINATION
+   HANYA BAGIAN INI YANG MEMILIKI KOTAK
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item
+.fi-pagination-item-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 36px !important;
+    min-width: 36px !important;
+    max-width: 36px !important;
+
+    height: 36px !important;
+    min-height: 36px !important;
+    max-height: 36px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background-color: #FFFFFF !important;
+
+    border: 1px solid #D1D5DB !important;
+    border-radius: 6px !important;
+
+    color: #374151 !important;
+
+    font-size: 13px !important;
+    font-weight: 500 !important;
+
+    line-height: 1 !important;
+
+    box-shadow: none !important;
+    outline: none !important;
+
+    cursor: pointer !important;
+
+    transition:
+        background-color 0.15s ease,
+        border-color 0.15s ease,
+        color 0.15s ease !important;
+}
+
+
+/* =========================================================
+   HILANGKAN NOMOR HALAMAN YANG TIDAK AKTIF
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="Go to page" i]:not([aria-current="page"])
+) {
+    display: none !important;
+}
+
+
+/* =========================================================
+   HALAMAN AKTIF
+   CONTOH:
+   [ 1 ] [ > ]
+   KOTAK BIRU + ANGKA PUTIH
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="Go to page" i][aria-current="page"]
+)
+.fi-pagination-item-btn {
+    background-color: #1769C2 !important;
+
+    border-color: #1769C2 !important;
+
+    color: #FFFFFF !important;
+
+    font-weight: 600 !important;
+
+    cursor: default !important;
+}
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="Go to page" i][aria-current="page"]
+)
+.fi-pagination-item-btn
+.fi-pagination-item-label {
+    color: #FFFFFF !important;
+
+    font-weight: 600 !important;
+}
+
+
+/* =========================================================
+   TEKS NOMOR HALAMAN
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item-btn
+.fi-pagination-item-label {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    color: inherit !important;
+
+    font-size: 13px !important;
+    font-weight: inherit !important;
+
+    line-height: 1 !important;
+}
+
+
+/* =========================================================
+   HILANGKAN ICON PAGINATION BAWAAN
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item-btn
+.fi-pagination-item-icon,
+.fi-pagination-items
+.fi-pagination-item-btn
+svg {
+    display: none !important;
+}
+
+
+/* =========================================================
+   TOMBOL PREVIOUS
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="previous" i]
+)
+.fi-pagination-item-btn {
+    font-size: 0 !important;
+}
+
+
+/* =========================================================
+   SIMBOL <
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="previous" i]
+)
+.fi-pagination-item-btn::after {
+    content: "<" !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    color: #4B5563 !important;
+
+    font-size: 13px !important;
+    font-weight: 500 !important;
+
+    line-height: 1 !important;
+}
+
+
+/* =========================================================
+   TOMBOL NEXT
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="next" i]
+)
+.fi-pagination-item-btn {
+    font-size: 0 !important;
+}
+
+
+/* =========================================================
+   SIMBOL >
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="next" i]
+)
+.fi-pagination-item-btn::after {
+    content: ">" !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    color: #4B5563 !important;
+
+    font-size: 13px !important;
+    font-weight: 500 !important;
+
+    line-height: 1 !important;
+}
+
+
+/* =========================================================
+   HOVER PANAH
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="previous" i]
+)
+.fi-pagination-item-btn:hover,
+
+.fi-pagination-items
+.fi-pagination-item:has(
+    > .fi-pagination-item-btn[aria-label*="next" i]
+)
+.fi-pagination-item-btn:hover {
+    background-color: #F3F4F6 !important;
+
+    border-color: #9CA3AF !important;
+
+    color: #1769C2 !important;
+}
+
+
+/* =========================================================
+   DISABLED PAGINATION
+   ========================================================= */
+
+.fi-pagination-items
+.fi-pagination-item.fi-disabled
+.fi-pagination-item-btn,
+.fi-pagination-items
+.fi-pagination-item-btn:disabled,
+.fi-pagination-items
+.fi-pagination-item-btn[disabled],
+.fi-pagination-items
+.fi-pagination-item-btn[aria-disabled="true"] {
+    background-color: #F3F4F6 !important;
+
+    border-color: #E5E7EB !important;
+
+    color: #9CA3AF !important;
+
+    opacity: 1 !important;
+
+    cursor: not-allowed !important;
+
+    pointer-events: none !important;
+}
+
+
+/* =========================================================
+   CARD / PANEL PUTIH
+   ========================================================= */
+
+.fi-section,
+.fi-section-content,
+.fi-card,
+.fi-panel {
+    background-color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   FORM CREATE & EDIT
+   DIGUNAKAN UNTUK:
+   LOKET, DERMAGA, TARIF, PENGGUNA, SHIFT
+   ========================================================= */
+
+
+/* =========================================================
+   CARD FORM
+   ========================================================= */
+
+.create-form,
+.edit-form {
+    background-color: #FFFFFF !important;
+
+    border-radius: 16px !important;
+
+    box-shadow: none !important;
+
+    overflow: hidden !important;
+}
+
+
+/* =========================================================
+   HEADER INFORMASI
+   ========================================================= */
+
+.create-form .fi-section-header,
+.edit-form .fi-section-header {
+    background-color: #FFFFFF !important;
+
+    padding: 18px 20px !important;
+
+    border-bottom: 1px solid #E5E7EB !important;
+}
+
+.create-form .fi-section-header-heading,
+.edit-form .fi-section-header-heading {
+    color: #111827 !important;
+
+    font-size: 14px !important;
+
+    font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   ISI FORM
+   ========================================================= */
+
+.create-form .fi-section-content,
+.edit-form .fi-section-content {
+    background-color: #FFFFFF !important;
+
+    padding: 20px !important;
+}
+
+
+/* =========================================================
+   FIELD
+   ========================================================= */
+
+.create-form .fi-fo-field-wrp,
+.edit-form .fi-fo-field-wrp {
+    background-color: transparent !important;
+}
+
+
+/* =========================================================
+   LABEL
+   ========================================================= */
+
+.create-form .fi-fo-field-wrp-label,
+.edit-form .fi-fo-field-wrp-label {
+    color: #111827 !important;
+
+    font-size: 13px !important;
+
+    font-weight: 600 !important;
+}
+
+.create-form .fi-fo-field-wrp-label span,
+.edit-form .fi-fo-field-wrp-label span {
+    color: #111827 !important;
+}
+
+
+/* =========================================================
+   TANDA WAJIB
+   ========================================================= */
+
+.create-form .fi-fo-field-wrp-label .fi-required-mark,
+.edit-form .fi-fo-field-wrp-label .fi-required-mark {
+    color: #DC2626 !important;
+}
+
+
+/* =========================================================
+   INPUT WRAPPER
+   BORDER ADA DI SINI
+   ========================================================= */
+
+.create-form .fi-input-wrp,
+.edit-form .fi-input-wrp {
+    min-height: 38px !important;
+
+    background-color: #FFFFFF !important;
+
+    border: 1px solid #D1D5DB !important;
+
+    border-radius: 7px !important;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+/* =========================================================
+   INPUT TEXT
+   ========================================================= */
+
+.create-form .fi-input,
+.edit-form .fi-input {
+    min-height: 36px !important;
+
+    background-color: transparent !important;
+
+    color: #374151 !important;
+
+    font-size: 13px !important;
+
+    border: none !important;
+
+    box-shadow: none !important;
+}
+
+.create-form .fi-input::placeholder,
+.edit-form .fi-input::placeholder {
+    color: #9CA3AF !important;
+}
+
+
+/* =========================================================
+   SELECT
+   ========================================================= */
+
+.create-form .fi-select-input,
+.edit-form .fi-select-input {
+    min-height: 36px !important;
+
+    background-color: transparent !important;
+
+    color: #374151 !important;
+
+    font-size: 13px !important;
+
+    border: none !important;
+
+    box-shadow: none !important;
+
+    border-radius: inherit !important;
+}
+
+
+/* =========================================================
+   FOCUS
+   ========================================================= */
+
+.create-form .fi-input-wrp:focus-within,
+.edit-form .fi-input-wrp:focus-within {
+    border-color: #1769C2 !important;
+}
+
+.create-form .fi-select-input:focus,
+.edit-form .fi-select-input:focus {
+    outline: none !important;
+
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   TEXTAREA
+   ========================================================= */
+
+.create-form .fi-textarea,
+.edit-form .fi-textarea {
+    background-color: transparent !important;
+
+    border: none !important;
+
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   AREA TOMBOL
+   ========================================================= */
+
+.create-form .fi-form-actions,
+.edit-form .fi-form-actions {
+    background-color: #FFFFFF !important;
+
+    padding: 0 20px 20px 20px !important;
+}
+
+
+/* =========================================================
+   SEMUA TOMBOL FORM
+   ========================================================= */
+
+.create-form .fi-btn,
+.edit-form .fi-btn {
+    border-radius: 7px !important;
+
+    font-size: 13px !important;
+
+    font-weight: 500 !important;
+
+    box-shadow: none !important;
+}
+
+
+/* =========================================================
+   TOMBOL PRIMARY
+   SIMPAN / SIMPAN PERUBAHAN
+   ========================================================= */
+
+.create-form .fi-btn-color-primary,
+.edit-form .fi-btn-color-primary {
+    background-color: #1769C2 !important;
+
+    color: #FFFFFF !important;
+
+    border: 1px solid #1769C2 !important;
+
+    border-radius: 7px !important;
+}
+
+.create-form .fi-btn-color-primary:hover,
+.edit-form .fi-btn-color-primary:hover {
+    background-color: #125AA5 !important;
+
+    border-color: #125AA5 !important;
+}
+
+
+/* =========================================================
+   TOMBOL BATAL & SIMPAN & TAMBAH LAGI
+   BORDER ABU-ABU TIPIS
+   ========================================================= */
+
+.create-form .fi-btn:not(.fi-btn-color-primary),
+.edit-form .fi-btn:not(.fi-btn-color-primary) {
+    border: 1px solid #E5E7EB !important;
+}
+
+
+/* =========================================================
+   HOVER TOMBOL BATAL & SIMPAN & TAMBAH LAGI
+   ========================================================= */
+
+.create-form .fi-btn:not(.fi-btn-color-primary):hover,
+.edit-form .fi-btn:not(.fi-btn-color-primary):hover {
+    border-color: #D1D5DB !important;
+}
+
+
+/* =========================================================
+   TOMBOL HAPUS
+   ========================================================= */
+
+.edit-form .fi-color-danger {
+    background-color: #DC2626 !important;
+
+    color: #FFFFFF !important;
+
+    border: 1px solid #DC2626 !important;
+
+    border-radius: 7px !important;
+
+    font-size: 13px !important;
+
+    font-weight: 500 !important;
+
+    box-shadow: none !important;
+}
+
+.edit-form .fi-color-danger:hover {
+    background-color: #B91C1C !important;
+
+    border-color: #B91C1C !important;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .create-form .fi-section-content,
+    .edit-form .fi-section-content {
+        padding: 16px !important;
+    }
+
+    .create-form .fi-form-actions,
+    .edit-form .fi-form-actions {
+        padding: 0 16px 16px 16px !important;
+    }
+}
+
+/* =========================================================
+   CARD GRAFIK
+   ========================================================= */
+
+.fi-wi-chart {
+    background-color: #FFFFFF !important;
+
+    border: 1px solid #E5E7EB !important;
+    border-radius: 12px !important;
+
+    overflow: hidden !important;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+/* =========================================================
+   DASHBOARD ADMIN
+   ========================================================= */
+
+.fi-wi-stats-overview,
+.fi-wi-stats-overview.fi-wi-widget,
+.fi-wi-stats-overview-stats-ctn {
+    background-color: #F3F4F6 !important;
+}
+
+.fi-wi-stats-overview-stat {
+    background-color: #FFFFFF !important;
+
+    border: 1px solid #E5E7EB !important;
+    border-radius: 12px !important;
+
+    overflow: hidden !important;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.fi-wi-stats-overview-stat > div {
+    background-color: #FFFFFF !important;
+}
+
+
+/* =========================================================
+   PERBAIKAN SELA KARTU DASHBOARD
+   ========================================================= */
+
+.fi-wi-stats-overview,
+.fi-wi-stats-overview * {
+    background-color: #F3F4F6 !important;
+}
+
+.fi-wi-stats-overview .fi-wi-stats-overview-stat,
+.fi-wi-stats-overview .fi-wi-stats-overview-stat * {
+    background-color: #FFFFFF !important;
+}
+
+.fi-wi-stats-overview .fi-wi-stats-overview-stat {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+/* =========================================================
+   SUBHEADING DASHBOARD
+   ========================================================= */
+
+.admin-dashboard-welcome {
+    width: 100% !important;
+    max-width: none !important;
+
+    display: block !important;
+
+    margin-top: 4px !important;
+
+    color: #6B7280 !important;
+
+    font-size: 14px !important;
+    font-weight: 400 !important;
+
+    line-height: 1.5 !important;
+
+    white-space: nowrap !important;
+}
+
+/* =========================================================
+   SUBHEADING HALAMAN
+   ========================================================= */
+
+.fi-header-subheading {
+    color: #6B7280 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+
+/* =========================================================
+   USER MENU
+   ========================================================= */
+
+.fi-user-menu-trigger {
+    display: inline-flex !important;
+    align-items: center !important;
+
+    gap: 8px !important;
+}
+
+body:has([data-panel-role="admin"]) .fi-user-menu-trigger::after,
+body:has([data-panel-role="petugas"]) .fi-user-menu-trigger::after {
+    color: #111827 !important;
+
+    font-size: 14px !important;
+    font-weight: 600 !important;
+
+    white-space: nowrap !important;
+}
+
+body:has([data-panel-role="admin"]) .fi-user-menu-trigger::after {
+    content: "Admin" !important;
+}
+
+body:has([data-panel-role="petugas"]) .fi-user-menu-trigger::after {
+    content: "Petugas" !important;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .fi-ta-header-toolbar .fi-ta-search-field {
+        right: 24px !important;
+
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+
+    .fi-wi-stats-overview-stat {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    }
+}
+
+/* =========================================================
+   SEMBUNYIKAN BREADCRUMB TANPA MENGHILANGKAN JARAK
+   ========================================================= */
+
+.fi-breadcrumbs {
+    visibility: hidden !important;
+}
+
+/* =========================================================
+   PETUGAS - TRANSAKSI HARI INI
+   ========================================================= */
+
+/* Hilangkan toolbar kosong */
+.petugas-transaksi-hari-ini .fi-ta-header-toolbar {
+    display: none !important;
+    min-height: 0 !important;
+    height: 0 !important;
+    max-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    overflow: hidden !important;
+}
+
+
+/* =========================================================
+   TURUNKAN GARIS SAJA
+   TABEL BIRU TETAP DI POSISI SEMULA
+   ========================================================= */
+
+.petugas-transaksi-hari-ini .fi-ta-header {
+    position: relative !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+}
+
+
+/* Garis diturunkan tanpa menggeser tabel */
+.petugas-transaksi-hari-ini .fi-ta-header::after {
+    content: "" !important;
+    display: block !important;
+
+    width: 100% !important;
+    height: 1px !important;
+
+    background: #e5e7eb !important;
+
+    position: relative !important;
+    top: 12px !important;
+
+    margin: 0 !important;
+}
+
+
+/* Tabel tidak digeser */
+.petugas-transaksi-hari-ini .fi-ta-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.petugas-transaksi-hari-ini .fi-ta-table {
+    margin-top: 0 !important;
+}
